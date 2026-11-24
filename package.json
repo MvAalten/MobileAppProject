@@ -37,7 +37,11 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "dev": "node scripts/dev.js auto",
+    "dev:usb": "node scripts/dev.js usb",
+    "dev:wifi": "node scripts/dev.js wifi",
+    "dev:tunnel": "node scripts/dev.js tunnel"
   },
   "private": true
 }
